@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic_js</title>
+</head>
+<body>
+    <h1>Display Date & Time</h1>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+    Click here to display Date and Time</button>
+
+    <p id="demo">Basic concepts of Javascript!</p>
+
+    <script>
+        function myFunction() {
+        document.getElementById('demo').style.fontSize = "large"
+    }
+    </script>
+    <button type="button" onclick="myFunction()">Try it</button>
+    <h1 id="trial">Change text</h1>
+    <button type="button" onclick="document.getElementById('trial').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+
+    <h1>Switching Fan</h1>
+    <button type="button" onclick="document.getElementById('myimage').src='/media/fanoff.gif'">Turn Off the Fan</button>
+    <img id="myimage" src="/media/fanoff.gif" alt="fan">
+    <button type="button" onclick="document.getElementById('myimage').src='/media/fanon.gif'">Turn On the Fan</button>
+
+    <!-- JavaScript Display Properties -->
+    <p id="example">How you doin'?</p>
+
+    <button type="button" onclick="document.getElementById('example').innerHTML = 'My Javascript!'">
+        Click Me!
+    </button>
+    <button type="button" onclick="document.write('Hello World!')">
+        Try Me!
+    </button>
+    <script>
+        window.alert('Successfull!')
+    </script>
+    <script>
+        alert('Logged in!')
+    </script>
+
+    <button type="button" onclick="window.print()">
+        Print
+    </button>
+
+    <script>
+    console.log(6+4)
+    </script>
+
+</body>
+</html>
